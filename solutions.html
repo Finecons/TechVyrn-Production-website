@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solutions — TechVyrn AI Products & Systems</title>
+  <meta name="description" content="Four AI products built on one secure, observable core: Vyrn Agents, Vyrn Insight, Vyrn Vision, and Vyrn Studio." />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/logo-mark.svg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow-hero-left" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="/index.html" class="brand-logo" aria-label="TechVyrn Home">
+        <img src="/assets/logo-horizontal.svg" alt="TechVyrn" width="159" height="36" />
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="navLinks">
+          <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
+          <li class="nav-item active"><a href="/solutions.html" class="nav-link">Solutions</a></li>
+          <li class="nav-item"><a href="/about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="/about.html#careers" class="nav-link">Careers</a></li>
+          <li class="nav-item"><a href="/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="/contact.html" class="btn btn-primary" id="navDemoBtn">
+          Book a demo
+          <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" type="button">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero Section -->
+    <section class="hero-section">
+      <div class="container page-hero-center">
+        <span class="badge-tag">SOLUTIONS</span>
+        <h1 class="hero-title" style="text-align: center; max-width: 860px;">
+          AI that fits the way your business already works.
+        </h1>
+        <p class="hero-subtitle" style="text-align: center; max-width: 680px;">
+          Four products built on one secure, observable core. Pick the problem you want solved — we’ll handle the models, the data plumbing and the deployment.
+        </p>
+
+        <!-- Quick Anchor Navigation Pills -->
+        <div class="filter-pills-nav">
+          <a href="#agents" class="filter-pill">
+            <img src="/assets/card-agent-icon.svg" alt="" aria-hidden="true" />
+            Vyrn Agents
+          </a>
+          <a href="#insight" class="filter-pill">
+            <img src="/assets/card-insight-icon.svg" alt="" aria-hidden="true" />
+            Vyrn Insight
+          </a>
+          <a href="#vision" class="filter-pill">
+            <img src="/assets/card-vision-icon.svg" alt="" aria-hidden="true" />
+            Vyrn Vision
+          </a>
+          <a href="#studio" class="filter-pill">
+            <img src="/assets/card-studio-icon.svg" alt="" aria-hidden="true" />
+            Vyrn Studio
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Products Showcase -->
+    <section class="container product-showcases-list">
+      <!-- 1. Vyrn Agents -->
+      <div class="product-row" id="agents">
+        <div class="product-copy">
+          <span class="badge-tag">
+            <img src="/assets/card-agent-icon.svg" alt="" class="badge-tag-icon" aria-hidden="true" />
+            VYRN AGENTS
+          </span>
+          <h2 class="product-title">Digital teammates that close the loop.</h2>
+          <p class="product-desc">
+            Vyrn Agents read, reason and act across your tools — email, CRM, ERP and ticketing — to finish multi-step tasks on their own, escalating to a person only when judgement is needed.
+          </p>
+          <div class="product-checklist">
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Connects to the apps and internal APIs you already use</span>
+            </div>
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Approval workflows and a full audit trail</span>
+            </div>
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Time saved, measured and reported every week</span>
+            </div>
+          </div>
+          <a href="/contact.html" class="product-link">
+            Talk to us about Vyrn Agents →
+          </a>
+        </div>
+        <div class="product-illustration-wrapper">
+          <img src="/assets/solutions-agents-illustration.svg" alt="Vyrn Agents autonomous task automation illustration with approval workflow" width="552" height="440" />
+        </div>
+      </div>
+
+      <!-- 2. Vyrn Insight (Reversed Layout) -->
+      <div class="product-row reverse" id="insight">
+        <div class="product-copy">
+          <span class="badge-tag">
+            <img src="/assets/card-insight-icon.svg" alt="" class="badge-tag-icon" aria-hidden="true" />
+            VYRN INSIGHT
+          </span>
+          <h2 class="product-title">Ask your data anything. Get answers you can act on.</h2>
+          <p class="product-desc">
+            Unify scattered spreadsheets, databases and dashboards into one intelligence layer. Forecast demand, catch anomalies early and understand the “why” behind every number.
+          </p>
+          <div class="product-checklist">
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Demand, revenue and inventory forecasting</span>
+            </div>
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Anomaly alerts before problems get expensive</span>
+            </div>
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Plain-language questions over your own data</span>
+            </div>
+          </div>
+          <a href="/contact.html" class="product-link">
+            Talk to us about Vyrn Insight →
+          </a>
+        </div>
+        <div class="product-illustration-wrapper">
+          <img src="/assets/solutions-insight-illustration.svg" alt="Vyrn Insight predictive forecasting chart and plain-language query interface" width="552" height="440" />
+        </div>
+      </div>
+
+      <!-- 3. Vyrn Vision -->
+      <div class="product-row" id="vision">
+        <div class="product-copy">
+          <span class="badge-tag">
+            <img src="/assets/card-vision-icon.svg" alt="" class="badge-tag-icon" aria-hidden="true" />
+            VYRN VISION
+          </span>
+          <h2 class="product-title">Eyes on every product, page and process.</h2>
+          <p class="product-desc">
+            Custom computer vision that inspects, reads and recognises — from defect detection on a production line to pulling fields out of invoices, IDs and forms.
+          </p>
+          <div class="product-checklist">
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Defect detection and visual quality inspection</span>
+            </div>
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Document AI for invoices, KYC and forms</span>
+            </div>
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Runs on edge devices or in the cloud</span>
+            </div>
+          </div>
+          <a href="/contact.html" class="product-link">
+            Talk to us about Vyrn Vision →
+          </a>
+        </div>
+        <div class="product-illustration-wrapper">
+          <img src="/assets/solutions-vision-illustration.svg" alt="Vyrn Vision industrial line inspection and defect recognition visual feed" width="552" height="440" />
+        </div>
+      </div>
+
+      <!-- 4. Vyrn Studio (Reversed Layout) -->
+      <div class="product-row reverse" id="studio">
+        <div class="product-copy">
+          <span class="badge-tag">
+            <img src="/assets/card-studio-icon.svg" alt="" class="badge-tag-icon" aria-hidden="true" />
+            VYRN STUDIO
+          </span>
+          <h2 class="product-title">Your own model, trained on what makes you different.</h2>
+          <p class="product-desc">
+            We fine-tune and ground language models on your documents, policies and product knowledge — then wrap them in guardrails, evaluations and a deployment you control.
+          </p>
+          <div class="product-checklist">
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Private copilots for sales, support and operations</span>
+            </div>
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Answers grounded in your knowledge, with sources</span>
+            </div>
+            <div class="proof-item">
+              <span class="proof-check">✓</span>
+              <span>Deploy in your cloud or on-premise</span>
+            </div>
+          </div>
+          <a href="/contact.html" class="product-link">
+            Talk to us about Vyrn Studio →
+          </a>
+        </div>
+        <div class="product-illustration-wrapper">
+          <img src="/assets/solutions-studio-illustration.svg" alt="Vyrn Studio custom LLM fine-tuning, guardrail evaluation, and knowledge grounding" width="552" height="440" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section class="industries-section-full" id="industries">
+      <div class="container">
+        <div style="max-width: 680px;">
+          <span class="badge-tag">INDUSTRIES</span>
+          <h2 class="solutions-title">Built for the realities of your industry.</h2>
+          <p class="solutions-desc" style="margin-top: 16px;">
+            Every sector has its own data, rules and edge cases. We bring patterns that already work — and adapt them to yours.
+          </p>
+        </div>
+
+        <div class="industries-grid-3x2">
+          <!-- Card 1 -->
+          <article class="industry-card-full">
+            <div class="industry-icon-tile">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 class="industry-card-title">Fintech & BFSI</h3>
+            <p class="industry-card-desc">
+              Fraud signals, KYC automation and credit-risk models with explainability built in.
+            </p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="industry-card-full">
+            <div class="industry-icon-tile">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+              </svg>
+            </div>
+            <h3 class="industry-card-title">Healthcare</h3>
+            <p class="industry-card-desc">
+              Clinical document processing, patient-communication agents and scheduling intelligence.
+            </p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="industry-card-full">
+            <div class="industry-icon-tile">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="21" r="1"/>
+                <circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+            </div>
+            <h3 class="industry-card-title">Retail & e-commerce</h3>
+            <p class="industry-card-desc">
+              Demand forecasting, personalised recommendations and visual product search.
+            </p>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="industry-card-full">
+            <div class="industry-icon-tile">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="3" width="15" height="13"/>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                <circle cx="5.5" cy="18.5" r="2.5"/>
+                <circle cx="18.5" cy="18.5" r="2.5"/>
+              </svg>
+            </div>
+            <h3 class="industry-card-title">Logistics</h3>
+            <p class="industry-card-desc">
+              ETA prediction, shipment exception handling and automated paperwork.
+            </p>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="industry-card-full">
+            <div class="industry-icon-tile">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+              </svg>
+            </div>
+            <h3 class="industry-card-title">Manufacturing</h3>
+            <p class="industry-card-desc">
+              Visual quality inspection, predictive maintenance and production planning.
+            </p>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="industry-card-full">
+            <div class="industry-icon-tile">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <h3 class="industry-card-title">Education</h3>
+            <p class="industry-card-desc">
+              Tutoring copilots, assessment automation and student-success analytics.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner Section -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-panel">
+          <h2 class="cta-title">Not sure which product fits?</h2>
+          <p class="cta-subtitle">
+            Tell us about the problem. In 30 minutes we’ll show you where AI can move the needle — and where it can’t.
+          </p>
+          <div class="cta-actions">
+            <a href="/contact.html" class="btn btn-primary">
+              Book a free strategy call
+              <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="/solutions.html#agents" class="btn btn-secondary">
+              Explore solutions
+              <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <a href="/index.html" class="footer-logo">
+            <img src="/assets/logo-horizontal.svg" alt="TechVyrn" width="140" height="32" />
+          </a>
+          <p class="footer-desc">
+            Applied AI for ambitious businesses. We design, build and run intelligent systems that ship.
+          </p>
+          <a href="mailto:hello@techvyrn.in" class="footer-email">hello@techvyrn.in</a>
+        </div>
+
+        <!-- Column 1: Solutions -->
+        <div class="footer-column">
+          <h4 class="footer-column-title">SOLUTIONS</h4>
+          <ul class="footer-links">
+            <li><a href="/solutions.html#agents" class="footer-link">Vyrn Agents</a></li>
+            <li><a href="/solutions.html#insight" class="footer-link">Vyrn Insight</a></li>
+            <li><a href="/solutions.html#vision" class="footer-link">Vyrn Vision</a></li>
+            <li><a href="/solutions.html#studio" class="footer-link">Vyrn Studio</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 2: Company -->
+        <div class="footer-column">
+          <h4 class="footer-column-title">COMPANY</h4>
+          <ul class="footer-links">
+            <li><a href="/about.html" class="footer-link">About us</a></li>
+            <li><a href="/about.html#careers" class="footer-link">Careers</a></li>
+            <li><a href="/contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Connect -->
+        <div class="footer-column">
+          <h4 class="footer-column-title">CONNECT</h4>
+          <ul class="footer-links">
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a></li>
+            <li><a href="https://x.com" target="_blank" rel="noopener noreferrer" class="footer-link">X (Twitter)</a></li>
+            <li><a href="mailto:careers@techvyrn.in" class="footer-link">careers@techvyrn.in</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <div>© 2026 TechVyrn. All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="#" class="footer-legal-link">Privacy policy</a>
+          <span>·</span>
+          <a href="#" class="footer-legal-link">Terms of use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

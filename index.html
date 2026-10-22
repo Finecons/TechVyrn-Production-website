@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechVyrn — Applied AI Systems for Ambitious Businesses</title>
+  <meta name="description" content="TechVyrn designs, builds and runs custom AI systems — agents, analytics and computer vision — that plug into your business and deliver measurable results in weeks, not quarters." />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/assets/logo-mark.svg" />
+
+  <!-- Google Fonts: Sora, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow-hero-left" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="/index.html" class="brand-logo" aria-label="TechVyrn Home">
+        <img src="/assets/logo-horizontal.svg" alt="TechVyrn" width="159" height="36" />
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="navLinks">
+          <li class="nav-item active"><a href="/index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="/solutions.html" class="nav-link">Solutions</a></li>
+          <li class="nav-item"><a href="/about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="/about.html#careers" class="nav-link">Careers</a></li>
+          <li class="nav-item"><a href="/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="/contact.html" class="btn btn-primary" id="navDemoBtn">
+          Book a demo
+          <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" type="button">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <!-- Hero Left Column -->
+        <div class="hero-content">
+          <!-- Announcement Badge -->
+          <a href="/contact.html" class="announcement-badge">
+            <span class="announcement-pill">NOW BOOKING</span>
+            <span class="announcement-text">
+              Free 30-minute AI strategy calls
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+          </a>
+
+          <!-- Main Headline -->
+          <h1 class="hero-title">
+            Intelligence that works <span class="gradient-text">as hard as you do.</span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="hero-subtitle">
+            TechVyrn designs, builds and runs AI systems — agents, analytics and computer vision — that plug into your business and deliver measurable results in weeks, not quarters.
+          </p>
+
+          <!-- Dual CTAs -->
+          <div class="hero-actions">
+            <a href="/contact.html" class="btn btn-primary">
+              Start your AI project
+              <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="#how-we-work" class="btn btn-secondary">
+              See how it works
+              <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Proof points checklist -->
+          <div class="hero-proof">
+            <div class="proof-item">
+              <span class="proof-check" aria-hidden="true">✓</span>
+              <span>Live in 6–10 weeks</span>
+            </div>
+            <div class="proof-item">
+              <span class="proof-check" aria-hidden="true">✓</span>
+              <span>Your data stays yours</span>
+            </div>
+            <div class="proof-item">
+              <span class="proof-check" aria-hidden="true">✓</span>
+              <span>No vendor lock-in</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column (Illustration) -->
+        <div class="hero-visual">
+          <div class="hero-visual-card">
+            <img src="/assets/hero-illustration.svg" alt="TechVyrn AI neural network architecture displaying automated triage and accuracy metrics" class="hero-visual-img" width="536" height="540" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industries Strip -->
+    <section class="industries-strip" aria-label="Industries we serve">
+      <div class="container industries-inner">
+        <span class="industries-label">BUILT FOR TEAMS IN</span>
+        <a href="/solutions.html#industries" class="industry-tag">Fintech</a>
+        <a href="/solutions.html#industries" class="industry-tag">Healthcare</a>
+        <a href="/solutions.html#industries" class="industry-tag">Retail</a>
+        <a href="/solutions.html#industries" class="industry-tag">Logistics</a>
+        <a href="/solutions.html#industries" class="industry-tag">Manufacturing</a>
+        <a href="/solutions.html#industries" class="industry-tag">EdTech</a>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section" aria-label="Performance and key metrics">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <div class="stat-value">2 <span class="accent">wks</span></div>
+          <p class="stat-description">Discovery sprint to find your highest-ROI AI use cases</p>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">6–10 <span class="accent">wks</span></div>
+          <p class="stat-description">From kickoff to a system running in production</p>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">100<span class="accent">%</span></div>
+          <p class="stat-description">Of the code, models and IP we build for you is yours</p>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">24/7</div>
+          <p class="stat-description">Monitoring and support on every system we run</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions Preview Section -->
+    <section class="solutions-section" id="solutions">
+      <div class="container">
+        <div class="solutions-header">
+          <div class="solutions-title-group">
+            <span class="badge-tag">WHAT WE BUILD</span>
+            <h2 class="solutions-title">Four products.<br />One intelligent core.</h2>
+          </div>
+          <div class="solutions-desc-group">
+            <p class="solutions-desc">
+              Start with one product or combine them. Every TechVyrn solution shares the same secure data layer, evaluation suite and monitoring — so each new use case gets faster to ship.
+            </p>
+            <a href="/solutions.html" class="btn btn-ghost">
+              View all solutions
+              <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2x2 Feature Cards Grid -->
+        <div class="feature-cards-grid">
+          <!-- Card 1: Vyrn Agents -->
+          <a href="/solutions.html#agents" class="feature-card">
+            <div class="card-icon-tile">
+              <img src="/assets/card-agent-icon.svg" alt="Vyrn Agents icon" width="52" height="52" />
+            </div>
+            <h3 class="card-title">Vyrn Agents</h3>
+            <p class="card-body">
+              Autonomous AI agents that handle repetitive work end-to-end — support tickets, invoices, onboarding, data entry — with a human in the loop where it matters.
+            </p>
+          </a>
+
+          <!-- Card 2: Vyrn Insight -->
+          <a href="/solutions.html#insight" class="feature-card">
+            <div class="card-icon-tile">
+              <img src="/assets/card-insight-icon.svg" alt="Vyrn Insight icon" width="52" height="52" />
+            </div>
+            <h3 class="card-title">Vyrn Insight</h3>
+            <p class="card-body">
+              Forecasting and decision intelligence on top of the data you already have. Ask questions in plain language and get answers you can act on.
+            </p>
+          </a>
+
+          <!-- Card 3: Vyrn Vision -->
+          <a href="/solutions.html#vision" class="feature-card">
+            <div class="card-icon-tile">
+              <img src="/assets/card-vision-icon.svg" alt="Vyrn Vision icon" width="52" height="52" />
+            </div>
+            <h3 class="card-title">Vyrn Vision</h3>
+            <p class="card-body">
+              Computer vision for quality inspection, document reading and visual search — tuned to your products, running at the edge or in the cloud.
+            </p>
+          </a>
+
+          <!-- Card 4: Vyrn Studio -->
+          <a href="/solutions.html#studio" class="feature-card">
+            <div class="card-icon-tile">
+              <img src="/assets/card-studio-icon.svg" alt="Vyrn Studio icon" width="52" height="52" />
+            </div>
+            <h3 class="card-title">Vyrn Studio</h3>
+            <p class="card-body">
+              Custom models and private copilots trained on your knowledge, with evaluation, guardrails and deployment handled for you.
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- How We Work Section -->
+    <section class="process-section" id="how-we-work">
+      <div class="container">
+        <div class="process-header">
+          <span class="badge-tag">HOW WE WORK</span>
+          <h2 class="process-title">From idea to impact in four steps.</h2>
+          <p class="process-subtitle">
+            A clear, low-risk path from “we should be using AI” to a system your team relies on every day.
+          </p>
+        </div>
+
+        <div class="process-steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-top">
+              <div class="step-badge active">01</div>
+              <div class="step-connector"></div>
+            </div>
+            <h3 class="step-title">Discover</h3>
+            <p class="step-description">
+              A focused two-week sprint to map your workflows, data and the highest-ROI use cases.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-top">
+              <div class="step-badge inactive">02</div>
+              <div class="step-connector"></div>
+            </div>
+            <h3 class="step-title">Prototype</h3>
+            <p class="step-description">
+              A working proof-of-concept on your real data, so you see results before you commit.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-top">
+              <div class="step-badge inactive">03</div>
+              <div class="step-connector"></div>
+            </div>
+            <h3 class="step-title">Build</h3>
+            <p class="step-description">
+              Production-grade engineering: integrations, security, evaluation and a UI people actually use.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="step-card">
+            <div class="step-top">
+              <div class="step-badge inactive">04</div>
+            </div>
+            <h3 class="step-title">Run & improve</h3>
+            <p class="step-description">
+              We monitor, retrain and refine the system so it keeps getting better after launch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Promise Section -->
+    <section class="promise-section" id="promise">
+      <div class="promise-glow" aria-hidden="true"></div>
+      <div class="container promise-content">
+        <img src="/assets/quote-icon.svg" alt="Quote mark" class="promise-quote-icon" width="48" height="40" />
+        <blockquote class="promise-quote-text">
+          “We’ll always tell you where AI won’t help — even when that means a smaller project for us.”
+        </blockquote>
+        <span class="promise-kicker">THE TECHVYRN PROMISE</span>
+      </div>
+    </section>
+
+    <!-- CTA Banner Section -->
+    <section class="cta-section" id="cta">
+      <div class="container">
+        <div class="cta-panel">
+          <h2 class="cta-title">Ready to put AI to work?</h2>
+          <p class="cta-subtitle">
+            Tell us about the problem. In 30 minutes we'll show you where AI can move the needle — and where it can't.
+          </p>
+          <div class="cta-actions">
+            <a href="/contact.html" class="btn btn-primary">
+              Book a free strategy call
+              <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="/solutions.html" class="btn btn-secondary">
+              Explore solutions
+              <svg class="btn-arrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <a href="/index.html" class="footer-logo">
+            <img src="/assets/logo-horizontal.svg" alt="TechVyrn" width="140" height="32" />
+          </a>
+          <p class="footer-desc">
+            Applied AI for ambitious businesses. We design, build and run intelligent systems that ship.
+          </p>
+          <a href="mailto:hello@techvyrn.in" class="footer-email">hello@techvyrn.in</a>
+        </div>
+
+        <!-- Column 1: Solutions -->
+        <div class="footer-column">
+          <h4 class="footer-column-title">SOLUTIONS</h4>
+          <ul class="footer-links">
+            <li><a href="/solutions.html#agents" class="footer-link">Vyrn Agents</a></li>
+            <li><a href="/solutions.html#insight" class="footer-link">Vyrn Insight</a></li>
+            <li><a href="/solutions.html#vision" class="footer-link">Vyrn Vision</a></li>
+            <li><a href="/solutions.html#studio" class="footer-link">Vyrn Studio</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 2: Company -->
+        <div class="footer-column">
+          <h4 class="footer-column-title">COMPANY</h4>
+          <ul class="footer-links">
+            <li><a href="/about.html" class="footer-link">About us</a></li>
+            <li><a href="/about.html#careers" class="footer-link">Careers</a></li>
+            <li><a href="/contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Connect -->
+        <div class="footer-column">
+          <h4 class="footer-column-title">CONNECT</h4>
+          <ul class="footer-links">
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a></li>
+            <li><a href="https://x.com" target="_blank" rel="noopener noreferrer" class="footer-link">X (Twitter)</a></li>
+            <li><a href="mailto:careers@techvyrn.in" class="footer-link">careers@techvyrn.in</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <div>© 2026 TechVyrn. All rights reserved.</div>
+        <div class="footer-legal-links">
+          <a href="#" class="footer-legal-link">Privacy policy</a>
+          <span>·</span>
+          <a href="#" class="footer-legal-link">Terms of use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Logic Script -->
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
